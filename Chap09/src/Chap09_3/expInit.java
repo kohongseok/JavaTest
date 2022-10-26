@@ -1,10 +1,12 @@
-package Chap09;
+package Chap09_3;
 
 class Time {
-    boolean am;
-    int hour;
-    int minute;
-    int second;
+    boolean am = true;
+    int hour = 12;
+    int minute = 0;
+    int second = 0;
+
+    Time() { }  // 초기화, 디폴트 생성자는 아무것도 하지 않는다.
 
     Time(boolean am, int hour, int minute, int secound) {
         this.am = am;
@@ -19,9 +21,12 @@ class Time {
     }
 }
 
-class timector {
+class expInit {
     public static void main(String[] args) {
-        Time now = new Time(true, 12, 34, 56);
+        Time midnight = new Time();
+        midnight.whatTime();
+
+        Time now = new Time(false,3,23,0);
         now.whatTime();
     }
 }
