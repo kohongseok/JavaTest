@@ -12,7 +12,6 @@ class Human {
     void intro() {
         System.out.println("안녕" + age + "살" + name + "입니다");
     }
-
 }
 
 class Student extends Human {
