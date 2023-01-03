@@ -40,7 +40,7 @@ public class Override_Test {
         Human kim = new Human(29,"홍길동");
         kim.intro();
         Student lee = new Student(42,"전지현",999999,"컴공");
-        lee.intro();
+        lee.study();
 
     }
 }
