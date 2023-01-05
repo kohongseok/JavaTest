@@ -4,7 +4,6 @@ class Notebook{
     final String CPU;
     int memory;
     int storage;
-
     Notebook(String CPU, int memory, int storage) {
         this.CPU = CPU;
         this.memory = memory;
