@@ -32,7 +32,6 @@ class  Human3 {
     }
     */
 
-
 class Human3 extends Notebook {
     int age;
     String name;
