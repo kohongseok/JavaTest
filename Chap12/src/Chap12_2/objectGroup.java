@@ -59,6 +59,19 @@ class Thief extends Human{
 
     }
 }
+// 추가 클래스
+class Graduate extends Student {
+   String thesis;
+    Graduate(int age, String name, int stnum, String major, String thesis) {
+        super(age, name, stnum, major);
+        this.thesis = thesis;
+
+    }
+    void intro() {
+        System.out.println(thesis + "논문을 쓰고 있는 대학원생입니다.");
+
+    }
+}
 public class objectGroup {
     public static void main(String[] args) {
         Human[] arHuman = {
@@ -66,6 +79,7 @@ public class objectGroup {
                 new Student(42, "이승우", 9312345, "경영"),
                 new Soldier(45, "강감찬", 12345),
                 new Thief(15, "홍길동", "부자집", 2),
+                new Graduate(35,"박대기",940034,"컴공","웹보안에 관한 연구"),
 
         };
 
