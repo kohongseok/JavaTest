@@ -1,5 +1,8 @@
 package Chap11_1;
+
+/*
 class Human2 {
+
     int age;
     String name;
 
@@ -12,8 +15,9 @@ class Human2 {
         System.out.println("안녕, " + age + "살 " + name + "입니다.");
     }
 }
+ */
 
-class Student2 extends Human {
+class Student2 extends Human2 {
     int stnum;
     String major;
 
